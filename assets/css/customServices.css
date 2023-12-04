@@ -1,0 +1,102 @@
+
+.float-container {
+border: 3px solid #fff;
+padding-left: 0px;
+font-size: 20px;
+font-style: italic;}
+
+.float-child .main{
+width: 100%;
+
+padding-left:0%;
+
+
+}
+.float-child .first{
+width: 50%;
+float: left;
+padding-left:10%;
+padding-right: 10%;
+
+}  
+
+.float-child .second{
+width: 50%;
+float: right;
+padding-left: 10px;
+
+}  
+.float-child .third {
+width: 50%;
+float: left;
+padding-left: 10%;
+
+}  
+.float-child .fourth {
+width: 50%;
+float: right;
+padding-left:10%;
+
+}  
+
+.clear{clear: both;}
+
+          div.slide-fastmain {
+width:100%;
+overflow:hidden;
+}
+div.slide-fastmain div.inner {
+animation: slide-fast1 2s;
+margin-top:0%;
+}
+
+@keyframes slide-fastmain {
+from {
+margin-left: 100%;
+}
+
+to {
+margin-left: 0%;
+}
+}
+div.slide-fast1 {
+width:100%;
+overflow:hidden;
+}
+div.slide-fast1 div.inner {
+animation: slide-fast1 2s;
+margin-top:0%;
+}
+
+@keyframes slide-fast1 {
+from {
+margin-left: 100%;
+}
+
+to {
+margin-left: 0%;
+}
+}
+
+div.slide-fast2 {
+width:100%;
+overflow:hidden;
+}
+div.slide-fast2 div.inner {
+animation: slide-fast2 2s;
+margin-top:0%;
+}
+
+@keyframes slide-fast2 {
+from {
+margin-right: 100%;
+}
+
+to {
+margin-right: 0%;
+}
+}
+
+#cad:target{ padding-top: 100px;margin-top: -100px}
+#upholstryserv:target{ padding-top: 100px;margin-top: -300px}
+#specialeng:target{ padding-top: 100px;margin-top: -300px}

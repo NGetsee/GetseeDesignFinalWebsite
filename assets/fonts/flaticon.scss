@@ -1,0 +1,65 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?d50691f911d562e5e4cba1227f052cbf") format("truetype"),
+url("./flaticon.woff?d50691f911d562e5e4cba1227f052cbf") format("woff"),
+url("./flaticon.woff2?d50691f911d562e5e4cba1227f052cbf") format("woff2"),
+url("./flaticon.eot?d50691f911d562e5e4cba1227f052cbf#iefix") format("embedded-opentype"),
+url("./flaticon.svg?d50691f911d562e5e4cba1227f052cbf#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "maintenance": "\f101",
+    "hand-saw": "\f102",
+    "varnish": "\f103",
+    "electrician": "\f104",
+    "plumber": "\f105",
+    "straight-quotes": "\f106",
+    "fast-time": "\f107",
+    "reliability": "\f108",
+    "loyalty": "\f109",
+    "transparency": "\f10a",
+);
+
+.flaticon-maintenance:before {
+    content: map-get($flaticon-map, "maintenance");
+}
+.flaticon-hand-saw:before {
+    content: map-get($flaticon-map, "hand-saw");
+}
+.flaticon-varnish:before {
+    content: map-get($flaticon-map, "varnish");
+}
+.flaticon-electrician:before {
+    content: map-get($flaticon-map, "electrician");
+}
+.flaticon-plumber:before {
+    content: map-get($flaticon-map, "plumber");
+}
+.flaticon-straight-quotes:before {
+    content: map-get($flaticon-map, "straight-quotes");
+}
+.flaticon-fast-time:before {
+    content: map-get($flaticon-map, "fast-time");
+}
+.flaticon-reliability:before {
+    content: map-get($flaticon-map, "reliability");
+}
+.flaticon-loyalty:before {
+    content: map-get($flaticon-map, "loyalty");
+}
+.flaticon-transparency:before {
+    content: map-get($flaticon-map, "transparency");
+}

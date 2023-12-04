@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "fauna-shell": "^1.1.0",
+    "faunadb": "^4.8.0",
+    "firebase": "^10.4.0",
+    "firebase-admin": "^11.10.1",
+    "sqlite3": "^5.1.6"
+  }
+}

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "flaticon";
+  src: url("./flaticon.ttf?d50691f911d562e5e4cba1227f052cbf") format("truetype"), url("./flaticon.woff?d50691f911d562e5e4cba1227f052cbf") format("woff"), url("./flaticon.woff2?d50691f911d562e5e4cba1227f052cbf") format("woff2"), url("./flaticon.eot?d50691f911d562e5e4cba1227f052cbf#iefix") format("embedded-opentype"), url("./flaticon.svg?d50691f911d562e5e4cba1227f052cbf#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-maintenance:before {
+  content: "";
+}
+
+.flaticon-hand-saw:before {
+  content: "";
+}
+
+.flaticon-varnish:before {
+  content: "";
+}
+
+.flaticon-electrician:before {
+  content: "";
+}
+
+.flaticon-plumber:before {
+  content: "";
+}
+
+.flaticon-straight-quotes:before {
+  content: "";
+}
+
+.flaticon-fast-time:before {
+  content: "";
+}
+
+.flaticon-reliability:before {
+  content: "";
+}
+
+.flaticon-loyalty:before {
+  content: "";
+}
+
+.flaticon-transparency:before {
+  content: "";
+}
+/*# sourceMappingURL=flaticon.css.map */

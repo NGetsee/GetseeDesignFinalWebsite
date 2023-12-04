@@ -1,0 +1,19 @@
+{
+    "name": "20099/getsee-design",
+    "authors": [
+        {
+            "name": "NGetsee",
+            "email": "123643158+NGetsee@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "google/apiclient": "^2.15",
+        "mailgun/mailgun-php": "^3.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
