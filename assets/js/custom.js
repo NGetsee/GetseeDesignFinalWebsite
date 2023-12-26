@@ -499,7 +499,7 @@
 		$('.preloader').addClass('preloader-deactivate');
 	}) 
 
-	// Subscribe form JS
+	/* Subscribe form JS
 	$(".newsletter-form").validator().on("submit", function (event) {
 		if (event.isDefaultPrevented()) {
 		// handle the invalid form...
@@ -553,7 +553,7 @@
 		});
 		wow.init();
 	}
-
+*/
 	// Tabs 
 	$('.tab ul.tabs').addClass('active').find('> li:eq(0)').addClass('current');
 	$('.tab ul.tabs li').on('click', function (g) {
@@ -582,7 +582,7 @@
 		$(".others-option-for-responsive .container .container").toggleClass("active");
 	});
 
-	// Odometer JS
+	/* Odometer JS
 	$('.odometer').appear(function(e) {
 		var odo = $(".odometer");
 		odo.each(function() {
@@ -632,6 +632,6 @@
 			spinner.find("input").val(newVal);
 			spinner.find("input").trigger("change");
 		});
-	});
+	});*/
 
 })(jQuery);
