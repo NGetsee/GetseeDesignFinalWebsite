@@ -1853,21 +1853,8 @@
 .ri-ship-line:before { content: "\f110"; }
 .ri-shirt-fill:before { content: "\f111"; }
 .ri-shirt-line:before { content: "\f112"; }
-/*.ri-shopping-bag-2-fill:before { content: "\f113"; }
-.ri-shopping-bag-2-line:before { content: "\f114"; }
-.ri-shopping-bag-3-fill:before { content: "\f115"; }
-.ri-shopping-bag-3-line:before { content: "\f116"; }
-.ri-shopping-bag-fill:before { content: "\f117"; }
-.ri-shopping-bag-line:before { content: "\f118"; }
-.ri-shopping-basket-2-fill:before { content: "\f119"; }
-.ri-shopping-basket-2-line:before { content: "\f11a"; }
-.ri-shopping-basket-fill:before { content: "\f11b"; }
-.ri-shopping-basket-line:before { content: "\f11c"; }
-.ri-shopping-cart-2-fill:before { content: "\f11d"; }
-.ri-shopping-cart-2-line:before { content: "\f11e"; }
-.ri-shopping-cart-fill:before { content: "\f11f"; }
-.ri-shopping-cart-line:before { content: "\f120"; }
-*/.ri-showers-fill:before { content: "\f121"; }
+
+.ri-showers-fill:before { content: "\f121"; }
 .ri-showers-line:before { content: "\f122"; }
 .ri-shuffle-fill:before { content: "\f123"; }
 .ri-shuffle-line:before { content: "\f124"; }

@@ -75,7 +75,7 @@ Header Area Style
 .top-header-area ul li {
   display: inline-block;
   color: var(--white-color);
-  font-size: 15px;
+  font-size: 20px;
   -webkit-transition: var(--transition);
   transition: var(--transition);
   margin-right: 30px;
@@ -124,7 +124,7 @@ Header Area Style
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
   color: var(--white-color);
 }
@@ -335,17 +335,17 @@ Navbar Area Style
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item a {
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 500;
+  font-size: 18px;
   color: var(--white-color);
   line-height: 1;
   position: relative;
-  padding-left: 0;
+  padding-left: 10px;
   padding-right: 0;
   padding-top: 0;
   padding-bottom: 0;
   margin-left: 15px;
-  margin-right: 15px;
+  margin-right: 0px;
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item a::before {
@@ -423,7 +423,7 @@ Navbar Area Style
   padding: 15px;
   border-bottom: 1px dashed #eeeeee;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   display: block;
@@ -1076,7 +1076,7 @@ Navbar Responsive Area Style
 /* Min width 992px to Max width 1199px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .desktop-nav .navbar .navbar-nav .nav-item a {
-    font-size: 14px;
+    font-size: 15px;
     margin-left: 15px;
     margin-right: 15px;
   }

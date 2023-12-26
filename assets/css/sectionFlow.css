@@ -1,0 +1,119 @@
+﻿.float-container {
+    border: 3px solid #fff;
+    padding-left: 0px;
+	font-size: 25px;
+    font-weight: 600;
+	font-style: italic;
+}
+
+.float-child .main{
+    width: 100%;
+    
+    padding-left:0%;
+    
+}  
+.float-child .first{
+    width: 50%;
+    float: left;
+    padding-left:10%;
+    
+}  
+
+.float-child .second{
+    width: 50%;
+    float: right;
+    padding-left: 10px;
+    
+}  
+.float-child .third {
+    width: 50%;
+    float: left;
+    padding-left: 10%;
+    
+}  
+.float-child .fourth {
+    width: 50%;
+    float: right;
+	padding-left:10%;
+    
+}  
+
+.clear{clear: both;}
+			
+		  </style>
+
+		  <style>
+		  div.slide-fastmain {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-fastmain div.inner {
+  animation: slide-fast1 2s;
+  margin-top:0%;
+}
+
+@keyframes slide-fastmain {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+div.slide-fast1 {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-fast1 div.inner {
+  animation: slide-fast1 2s;
+  margin-top:0%;
+}
+
+@keyframes slide-fast1 {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+div.slide-fast2 {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-fast2 div.inner {
+  animation: slide-fast2 2s;
+  margin-top:0%;
+}
+
+@keyframes slide-fast2 {
+  from {
+    margin-right: 100%;
+  }
+
+  to {
+    margin-right: 0%;
+  }
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+    li {
+        width: 100%;
+        word-wrap: break-word;
+        font-size:14px;
+    }
+}

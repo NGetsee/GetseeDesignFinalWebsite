@@ -33,7 +33,7 @@
     margin-left: 0 !important;
   }
   p {
-    font-size: 15px;
+    font-size: 20px;
   }
   .pl-0 {
     padding-left: 12px;
@@ -816,7 +816,9 @@
   .choose-img {
     margin-top: 30px;
     margin-bottom: 30px;
+
   }
+
   .single-choose-us h3 {
     font-size: 22px;
   }
@@ -955,7 +957,7 @@
   }
   .single-choose-us {
     max-width: 49%;
-    display: inline-block;
+    display: block;
   }
   .single-choose-us:nth-child(3) {
     border-bottom: 1px solid #e5e5e5;
