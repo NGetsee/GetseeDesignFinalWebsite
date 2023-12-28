@@ -1,21 +1,17 @@
-// popup.js
-
 // Function to display a pop-up message
 function displayPopup(message) {
+    // Create the pop-up element
     const popup = document.createElement('div');
     popup.className = 'popup';
     popup.innerHTML = `<p>${message}</p>`;
-    document.body.appendChild(popup);
 
-    // Close the pop-up when clicked
-    popup.addEventListener('click', () => {
-        popup.style.display = 'none';
-    });
+    // Add the pop-up to the document body
+    document.body.appendChild(popup);
 
     // Automatically close the pop-up after a few seconds (adjust the delay as needed)
     setTimeout(() => {
-        popup.style.display = 'none';
-    }, 5000); // 5 seconds
+        document.body.removeChild(popup);
+    }, 10000); // 10 seconds
 }
 
 // Check if a query parameter named "status" exists in the URL
